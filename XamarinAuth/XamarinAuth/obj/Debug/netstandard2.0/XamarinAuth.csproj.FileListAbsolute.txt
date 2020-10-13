@@ -1,0 +1,14 @@
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.deps.json
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.dll
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\ref\XamarinAuth.dll
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\bin\Debug\netstandard2.0\XamarinAuth.pdb
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.csprojAssemblyReference.cache
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.AssemblyInfoInputs.cache
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.AssemblyInfo.cs
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.csproj.CoreCompileInputs.cache
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.dll
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\ref\XamarinAuth.dll
+C:\Users\Adarsh\OneDrive\Desktop\working\Xamarin\XamarinAuth\XamarinAuth\XamarinAuth\obj\Debug\netstandard2.0\XamarinAuth.pdb
