@@ -19,8 +19,9 @@ namespace XamarinAuth
 			AuthenticationClient = PublicClientApplicationBuilder.Create(Constants.ClientId)
 		  .WithIosKeychainSecurityGroup(Constants.IosKeychainSecurityGroups)
 		  .WithB2CAuthority(Constants.AuthoritySignin)
-		   //.WithRedirectUri($"msal{Constants.ClientId}://auth")
-		   .WithRedirectUri(Constants.Url)
+		  .WithRedirectUri($"msal{Constants.ClientId}://auth")
+		   //.WithRedirectUri("https://codingmastery.b2clogin.com/oauth2/nativeclient")
+		   //.WithRedirectUri(Constants.Url)
 		   .Build();
 
 			//MainPage = new MainPage();

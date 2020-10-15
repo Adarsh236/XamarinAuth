@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fIQymJHlNQxWts1pgXZItAlUrfIAFkA+B5/hL9rKozDYT2cWTC7EsBrQsXqcESiEJOxQJObAIZ3K/1Dqu108gg==",
+  "dgSpecHash": "q85vN3weE6y4DkCDpNwTGFch3adDUc2URdzI7zO+93zBAFpMF+9KdgDv9338N2OjwYjVwX6VyEu+929ykhA1gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Adarsh\\OneDrive\\Desktop\\working\\Xamarin\\XamarinAuth\\XamarinAuth\\XamarinAuth.iOS\\XamarinAuth.iOS.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
     "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.bcl.build\\1.0.21\\microsoft.bcl.build.1.0.21.nupkg.sha512",
     "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.identity.client\\4.19.0\\microsoft.identity.client.4.19.0.nupkg.sha512",
+    "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.identity.client\\4.20.1\\microsoft.identity.client.4.20.1.nupkg.sha512",
     "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.15.0\\microsoft.identity.client.extensions.msal.2.15.0.nupkg.sha512",
     "C:\\Users\\Adarsh\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
     "C:\\Users\\Adarsh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

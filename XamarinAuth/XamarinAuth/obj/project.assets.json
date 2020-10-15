@@ -60,7 +60,7 @@
           "lib/netstandard2.0/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Identity.Client/4.19.0": {
+      "Microsoft.Identity.Client/4.20.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -1905,10 +1905,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Identity.Client/4.19.0": {
-      "sha512": "cmFGDXNr0xT/tLpQxlzHZaM6C/Ppy/pvxj+l912swtrH43+Ae7ZMb9bLYKd8My6V3JsXFtJ2rj4jrQVTbEWUfg==",
+    "Microsoft.Identity.Client/4.20.1": {
+      "sha512": "arDU5RCnQQq24kELvqssb8KG1Ke4EsktTYA+bY3BobnCj8QaAAbbnRh3UE7SmJaMXYeB/Lu2+4cWRmuE6T+usg==",
       "type": "package",
-      "path": "microsoft.identity.client/4.19.0",
+      "path": "microsoft.identity.client/4.20.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1931,7 +1931,7 @@
         "lib/xamarinios10/Microsoft.Identity.Client.xml",
         "lib/xamarinmac20/Microsoft.Identity.Client.dll",
         "lib/xamarinmac20/Microsoft.Identity.Client.xml",
-        "microsoft.identity.client.4.19.0.nupkg.sha512",
+        "microsoft.identity.client.4.20.1.nupkg.sha512",
         "microsoft.identity.client.nuspec",
         "ref/MonoAndroid10.0/Microsoft.Identity.Client.dll",
         "ref/MonoAndroid10.0/Microsoft.Identity.Client.xml",
@@ -6588,6 +6588,7 @@
       "Microsoft.Azure.Mobile.Client.SQLiteStore >= 4.1.2",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Build >= 1.0.21",
+      "Microsoft.Identity.Client >= 4.20.1",
       "Microsoft.Identity.Client.Extensions.Msal >= 2.15.0",
       "Microsoft.Net.Http >= 2.2.29",
       "NETStandard.Library >= 2.0.3",
@@ -6661,6 +6662,10 @@
             "target": "Package",
             "version": "[1.0.21, )"
           },
+          "Microsoft.Identity.Client": {
+            "target": "Package",
+            "version": "[4.20.1, )"
+          },
           "Microsoft.Identity.Client.Extensions.Msal": {
             "target": "Package",
             "version": "[2.15.0, )"
@@ -6718,7 +6723,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
