@@ -1,12 +1,14 @@
 ﻿using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinAuth.Constants;
 using XamarinAuth.Models;
 
 namespace XamarinAuth.Views
@@ -27,9 +29,18 @@ namespace XamarinAuth.Views
 				IEnumerable<IAccount> accounts = await App.AuthenticationClient.GetAccountsAsync();
 
 				AuthenticationResult result = await App.AuthenticationClient
-					.AcquireTokenSilent(Constants.Scopes,
+					.AcquireTokenSilent(B2CConstants.Scopes,
 						 accounts.FirstOrDefault())
 					.ExecuteAsync();
+
+				Trace.WriteLine("OnAppearing-------------------------");
+				//Trace.WriteLine(accounts.ToString());
+				//Trace.WriteLine(B2CConstants.Scopes);
+				Trace.WriteLine(result);
+
+
+				Trace.WriteLine("OnAppearing-------------------------End");
+
 
 				await Navigation.PushAsync(new LogoutPage(result));
 			}
@@ -46,10 +57,17 @@ namespace XamarinAuth.Views
 			try
 			{
 				result = await App.AuthenticationClient
-					.AcquireTokenInteractive(Constants.Scopes)
+					.AcquireTokenInteractive(B2CConstants.Scopes)
 					.WithPrompt(Prompt.SelectAccount)
 					.WithParentActivityOrWindow(App.UIParent)
 					.ExecuteAsync();
+
+				Trace.WriteLine("OnLoginButtonClicked-------------------------");
+				//Trace.WriteLine(B2CConstants.Scopes);
+				Trace.WriteLine(result);
+
+
+				Trace.WriteLine("OnLoginButtonClicked-------------------------End");
 
 				await Navigation.PushAsync(new LogoutPage(result));
 			}
@@ -71,10 +89,10 @@ namespace XamarinAuth.Views
 			try
 			{
 				return await App.AuthenticationClient
-					.AcquireTokenInteractive(Constants.Scopes)
+					.AcquireTokenInteractive(B2CConstants.Scopes)
 					.WithPrompt(Prompt.SelectAccount)
 					.WithParentActivityOrWindow(App.UIParent)
-					.WithB2CAuthority(Constants.AuthorityPasswordReset)
+					.WithB2CAuthority(B2CConstants.AuthorityPasswordReset)
 					.ExecuteAsync();
 			}
 			catch (MsalException)

@@ -13,6 +13,7 @@
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.2",
           "Microsoft.Bcl": "1.1.10",
           "Microsoft.Bcl.Build": "1.0.21",
+          "Microsoft.Identity.Client": "4.20.1",
           "Microsoft.Identity.Client.Extensions.Msal": "2.15.0",
           "Microsoft.Net.Http": "2.2.29",
           "NETStandard.Library": "2.0.3",
@@ -72,7 +73,7 @@
           }
         }
       },
-      "Microsoft.Identity.Client/4.19.0": {
+      "Microsoft.Identity.Client/4.20.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "NETStandard.Library": "2.0.3",
@@ -90,14 +91,14 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.Identity.Client.dll": {
-            "assemblyVersion": "4.19.0.0",
-            "fileVersion": "4.19.0.0"
+            "assemblyVersion": "4.20.1.0",
+            "fileVersion": "4.20.1.0"
           }
         }
       },
       "Microsoft.Identity.Client.Extensions.Msal/2.15.0": {
         "dependencies": {
-          "Microsoft.Identity.Client": "4.19.0",
+          "Microsoft.Identity.Client": "4.20.1",
           "System.Security.Cryptography.ProtectedData": "4.5.0"
         },
         "runtime": {
@@ -1253,12 +1254,12 @@
       "path": "microsoft.csharp/4.5.0",
       "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
-    "Microsoft.Identity.Client/4.19.0": {
+    "Microsoft.Identity.Client/4.20.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cmFGDXNr0xT/tLpQxlzHZaM6C/Ppy/pvxj+l912swtrH43+Ae7ZMb9bLYKd8My6V3JsXFtJ2rj4jrQVTbEWUfg==",
-      "path": "microsoft.identity.client/4.19.0",
-      "hashPath": "microsoft.identity.client.4.19.0.nupkg.sha512"
+      "sha512": "sha512-arDU5RCnQQq24kELvqssb8KG1Ke4EsktTYA+bY3BobnCj8QaAAbbnRh3UE7SmJaMXYeB/Lu2+4cWRmuE6T+usg==",
+      "path": "microsoft.identity.client/4.20.1",
+      "hashPath": "microsoft.identity.client.4.20.1.nupkg.sha512"
     },
     "Microsoft.Identity.Client.Extensions.Msal/2.15.0": {
       "type": "package",

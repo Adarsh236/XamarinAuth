@@ -14,7 +14,7 @@
         <category android:name="android.intent.category.BROWSABLE" />
         <!-- example -->
         <!-- <data android:scheme="msalaaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" android:host="auth" /> -->
-        <data android:scheme="msalxamarinauth://auth" android:host="auth" />
+        <data android:scheme="msal3329b9f5-4693-40f6-bbe6-dd57a5103ff9" android:host="auth" />
       </intent-filter>
     </activity>
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="XamarinAuth" android:theme="@style/MainTheme" android:name="crc64d19c7ecf70579619.MainActivity">

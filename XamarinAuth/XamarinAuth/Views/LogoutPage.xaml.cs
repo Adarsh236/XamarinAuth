@@ -1,6 +1,7 @@
 ﻿using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,11 +22,17 @@ namespace XamarinAuth.Views
 		async void OnLogoutButtonClicked(object sender, EventArgs e)
 		{
 			IEnumerable<IAccount> accounts = await App.AuthenticationClient.GetAccountsAsync();
-
+			Trace.WriteLine("IEnumerable-------------------------");
+			Trace.WriteLine(accounts);
+			Trace.WriteLine("IEnumerable-------------------------End");
 			while (accounts.Any())
 			{
 				await App.AuthenticationClient.RemoveAsync(accounts.First());
 				accounts = await App.AuthenticationClient.GetAccountsAsync();
+
+				Trace.WriteLine("while-------------------------");
+				Trace.WriteLine(accounts);
+				Trace.WriteLine("while-------------------------End");
 			}
 
 			await Navigation.PopAsync();
